@@ -26,7 +26,7 @@ SECRET_KEY = 'qej95c#+$^feum+7^=nl(0%h=^ev9svija5(ii_&i&n5kpz6e5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -144,4 +144,4 @@ EMAIL_HOST_PASSWORD='xljmelezvegzcsjw'
 
 
 # Activate Django-Heroku.
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
